@@ -184,17 +184,19 @@ Display a compact inline badge showing a format type or tool category.
 
 ### Interactive Tool
 
-Embed a full interactive tool via iframe with complete isolation.
+Embed a full interactive tool via iframe. Use the `data-slug` attribute with the format `category/tool-name`.
 
 ```html
 <!-- Embed an interactive PeasyMath tool -->
 <div data-peasy-math="interactive"
-  data-url="https://peasymath.com/embed/unit-converter/"
-  data-height="500px"
+  data-slug="math/example-tool"
+  data-height="500"
   data-theme="light">
 </div>
 <script src="https://cdn.jsdelivr.net/npm/peasy-math-embed@1/dist/embed.min.js"></script>
 ```
+
+> **Note:** The `data-slug` value uses the format `category-slug/tool-slug`. Find available tools at [peasymath.com/api/v1/tools/](https://peasymath.com/api/v1/tools/).
 
 ### Glossary Tooltip
 
