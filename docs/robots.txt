@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+# PeasyMath Embed Widget
+# Main site: https://peasymath.com
+# Widget docs: https://widget.peasymath.com
+# npm: https://www.npmjs.com/package/peasy-math-embed
